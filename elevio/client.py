@@ -4,18 +4,21 @@ from typing import Optional, List
 from elevio.models import ElevioArticle, ElevioTranslation, ElevioSearchResultSummary
 from elevio.utils import iso_to_unix_ms, VALID_LANGUAGE_CODES, validate_language_code
 
-from dotenv import load_dotenv
 import requests
+import streamlit as st
 
-load_dotenv()
+BASE_ELEVIO_URL = st.secrets["BASE_ELEVIO_URL"]
+ELEVIO_API_KEY = st.secrets["ELEVIO_API_KEY"]
+ELEVIO_JWT = st.secrets["ELEVIO_JWT"]
+
 
 class ElevioClient:
     def __init__(self):
-        self.base_url = os.environ.get('BASE_ELEVIO_URL')
+        self.base_url = BASE_ELEVIO_URL
         self.session = requests.Session()
         self.auth_headers = {
-            'x-api-key': os.environ.get('ELEVIO_API_KEY'),
-            'Authorization': f'Bearer {os.environ.get('ELEVIO_JWT')}'
+            'x-api-key': ELEVIO_API_KEY,
+            'Authorization': f'Bearer {ELEVIO_JWT}'
         }
         self.session.headers.update(self.auth_headers)
 

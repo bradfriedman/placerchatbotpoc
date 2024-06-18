@@ -1,8 +1,6 @@
 import os
 import uuid
 
-from dotenv import load_dotenv
-
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains.history_aware_retriever import create_history_aware_retriever
 from langchain.chains.retrieval import create_retrieval_chain
@@ -21,7 +19,6 @@ from pinecone.grpc import PineconeGRPC, GRPCIndex
 
 import streamlit as st
 
-load_dotenv()
 if "session_id" not in st.session_state:
     st.session_state.session_id = str(uuid.uuid4())
 session_id = st.session_state.session_id
@@ -29,6 +26,9 @@ session_id = st.session_state.session_id
 set_debug(True)
 
 langsmith_client = LangsmithClient()
+
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
+PINECONE_API_KEY = st.secrets["PINECONE_API_KEY"]
 
 
 def get_session_history(i: str) -> BaseChatMessageHistory:
@@ -47,7 +47,7 @@ with open(os.path.join('prompts', 'chatbot_system_prompt.dat')) as f:
 index_name = "articles"
 namespace = "elevio_articles"
 
-pc = PineconeGRPC(api_key=os.environ.get("PINECONE_API_KEY"))
+pc = PineconeGRPC(api_key=PINECONE_API_KEY)
 index: GRPCIndex = pc.Index(index_name)
 embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
 vector_store = PineconeVectorStore(index_name=index_name, embedding=embeddings, namespace=namespace)
