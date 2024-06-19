@@ -1,0 +1,54 @@
+Title: Point of Interest Data (POI data) - All You Need To Know
+Subtitle: POI data, or Point of Interest data, refers to any information relating to a specific POI. How can POI data yield actionable insights across different industries? Read here!
+
+What is a Point of Interest (POI)?
+A point of interest (POI) is any physical location that people care about. A popular restaurant, a public library, a train station, a shopping mall, a historical site like the Washington Monument, or any other defined space that is the subject of attention can be classified as a POI. A POI can also refer to a temporary venue or a transient focus of interest like a pop-up store, a traveling circus, or a county fair.
+
+The way points of interest are defined depends on the kind of information being sought: A POI can be a specific dining establishment, the shopping center it is based in, or even a broader retail corridor. Techniques like geocoding and geofencing are used to translate real-world locations into POIs that can be included in mapping services, navigational systems (like GPS), or location intelligence platforms.
+*!@#*
+Identifying Points of Interest
+Information identifying the location of a POI, like its address and coordinates, can come from a variety of different sources, including websites, social media platforms, government databases, and open platforms like Google Maps. Mapping data for POIs can also be collected by human beings in the real world. But accurately determining POI locations presents POI data providers with a number of challenges.
+
+First, points of interest are a moving target. The physical landscape is always changing, with stores opening and closing, buildings going up, and properties being rezoned. Keeping up with these changes and ensuring that POI data remains up-to-date and error-free is an herculean task.
+
+Second, POI data providers often have to reconcile conflicting or inconsistent data sources, which may report locations somewhat differently. This can make it hard to pin down a venue’s exact location. Data companies have to find ways to verify and clean up POI data at scale.
+
+Third, in order to harness more advanced location analytics like foot traffic data, it’s not enough to simply locate a venue on a map. To determine whether someone has visited a specific point of interest, the precise boundaries of the POI need to be established. Imagine, for example, that you want to find out how many people visited a particular Starbucks in the month of November. It’s not enough to know the venue’s street address or general geographic coordinates; you also need to be able to reliably distinguish between the grounds of the actual coffee shop and the vacant lot next door.
+
+The best POI data providers deal with this problem using a technique called geofencing, which entails building a virtual perimeter around a specific venue, whether a store, an entire outdoor mall, or a field being used to stage an outdoor theater production. The perimeter’s coordinates form a polygon that represents the POI’s exact location and boundaries. The scope and area of the polygon will depend on the nature of the venue being analyzed.
+*!@#*
+What is POI Data (Point of Interest Data)?
+POI data refers to information about a particular point of interest. At the most basic level, POI datasets include the information needed to identify and define particular venues, such as street addresses and GPS coordinates. However, to get the most out of POI data, decision-makers require a myriad of advanced metrics – many of which are based on location analytics.
+
+Professionals in various fields use point of interest data to analyze how specific places are used, what kinds of audiences they attract, and how their visitor profile changes over time. Retailers use POI data in conjunction with other data sources, for example, to analyze the performance of their venues and to conduct market research. Consumers also use POI data – like the kind included in Google Maps – to get directions, reviews, find good restaurants, and discover local attractions.
+
+Some common POI data points include:
+
+Geographical coordinates (latitude and longitude).
+Street address and contact information.
+A venue’s industry category (i.e. coffee shops, restaurants, etc.), using systems like NAICS (the North American Industry Classification System, which codes businesses according to their primary business activity), or Google Maps POI categories.
+Information on area attributes, including traffic patterns, infrastructure, and the presence of other nearby POIs like businesses and popular events.
+POI data is also sometimes used synonymously with geospatial data to refer to more advanced metrics like foot traffic data, which shows how many people visited a POI during a specified period of time and how long they spent there.
+*!@#*
+Defining POIs: An Example
+The various ways of defining a POI – depending on the analysis being conducted – can be illustrated with the following example.
+
+Imagine you are a CPG (consumer packaged goods) marketing executive exploring advertising opportunities at an upcoming New York Giants game. You want to analyze visitation patterns at Metlife Stadium to determine if your product will appeal to the sports fans in attendance. How many people are likely to come to the game? And what are their interests and consumer preferences?
+
+To answer these questions, you will first need to identify the exact boundaries of the POI to be analyzed – and the way you define them will depend on the nature of your advertising strategy.
+
+If the ads are to be displayed on a scoreboard inside the stadium, for example, your analysis will need to focus on people who actually go inside the venue, and your POI will be defined accordingly. If your ads are also to be posted on billboards outside the stadium, on the other hand, you may define the POI to encompass the venue’s parking lots as well, to include tailgaters in your analysis. And if the Giants are playing, say, the Philadelphia Eagles – with many fans coming from out of state – you may decide to study additional POIs such as Lincoln Financial Field (https://en.wikipedia.org/wiki/Lincoln_Financial_Field).
+
+Correctly defining the POI to be studied so that it precisely captures the relevant target audience is a critical first step in performing successful location intelligence analysis.
+*!@#*
+Placer.ai's POI Data Solution
+Placer.ai uses advanced machine learning techniques to gather all the information (https://www.placer.ai/resources/our-data/) needed to correctly identify millions of points of interest nationwide and to gain a deep understanding of who they serve and how they are performing. With advanced geofencing techniques, Placer creates polygons that accurately represent a POI’s perimeter. And using mobile device location data – stripped (https://www.placer.ai/company/trust-center) of all personal identifiers before it is shared with the company – Placer provides aggregated, statistical foot traffic analytics that allow users to closely analyze visitation patterns. These analytics can be integrated with multiple datasets (https://www.placer.ai/products/data-marketplace/), to glean in-depth, actionable location intelligence (https://www.placer.ai/guides/everything-you-need-to-know-about-location-intelligence).
+
+Placer’s platform includes millions of verified POIs, representing stores, restaurants, shopping malls, gyms, offices, downtown districts and other venues across the United States. A POI is considered verified only if it has been meticulously analyzed, cleaned, and correctly attributed to the right business or chain. Placer also allows users to create and geofence custom POIs to meet their individual needs.
+
+To protect privacy (https://www.placer.ai/company/trust-center/) and safety, Placer employs minimum visitation standards, so that only POIs that get at least 50 panel visits per reporting period are included in the platform. In addition, it does not make available any information on sensitive places like schools, places of worship, and women’s health facilities.
+*!@#*
+The Importance of POI Data
+In a data-driven world, reliable and up-to-date POI data is not just nice to have – it is the foundation of every location-centric data source. Point of interest data fuels informed decision-making in a variety of fields, from retail to commercial real estate management, and empowers professionals to take market analysis to the next level.
+
+To usefully guide decision-making, however, POI data tools have to meet the most exacting standards. The information needs to be accurate, granular, comprehensive, up-to-date, and user-friendly. When choosing a location data provider, it is important to find one that meticulously reviews the POIs it uses to ensure a reliable foundation for accurate location analysis.

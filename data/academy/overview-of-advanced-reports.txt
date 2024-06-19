@@ -1,0 +1,15 @@
+Title: Overview of the Advanced Reports section
+Subtitle: A brief introduction to the reports and solutions housed within Placer's Advanced Reports section
+
+The Advanced Reports tab houses many solution-oriented reports and platform enhancements.  The video above provides a brief introduction to various reports you can find in this section.
+
+Advanced Reports Highlights
+Below is an introduction to the most popular reports within the Advance Reports section:
+
+Void Analysis: Void analysis helps you identify chains or retailers that would be a good fit for any location. You can evaluate a specific shopping center, or drop a pin to look at an address. Once you generate the list of chains, you can filter by space size, category, expansion rate, and more.
+Site Selection: Site Selection is a platform enhancement feature that allows you to identify the ideal sites to expand your chain and optimize reach in just a few clicks. You can compare the fit of potential sites for your chain with scoring based on customizable parameters, including demographic fit, trade area population size, cannibalization level, competition density, and more.
+Placer XTRA: Placer XTRA houses many reports that provide additional layers of information and insights for your analysis. Each report must be requested individually, and then it is custom-created and delivered within a few days.
+Migration: Migration allows you to discover population migration trends and associated demographic changes.  You can examine how migration patterns have trended, and estimate if they will continue, highlight areas for retail expansion, analyze shifts in population down to the neighborhood level, understand what kind of people are coming into a specific market or area of interest, and more.
+Spatial.ai PersonaLive:  PersonaLive allows you to segment households across the U.S. – based on their demographics, as well as real-world store visitation and digital behavior –  to reveal deep behavioral insights.  Use social media insights to discover what consumers follow, see the chains, brands, and business categories your customers visit, and use online and e-commerce data to understand their shopping preferences.
+Shopping Center Benchmarking: Shopping Center Benchmarking allows you to rank shopping centers by a number of different categories, such as visit frequency, dwell time, and more.
+Development+:  Development+ is an expansion report that makes it even easier to explore new and future development projects within or around an area.  You can filter this report by owner, tenant, development type, development stage, and state.

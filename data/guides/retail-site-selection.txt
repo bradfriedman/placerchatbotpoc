@@ -1,0 +1,63 @@
+Title: Retail Site Selection Guide
+Subtitle: The right location can drive traffic, sales, and brand awareness. Read this guide to learn the 6 factors to consider for your retail site selection.
+
+What is Site Selection for a Retail Location?
+Strategic retail site selection is critical to a long-term success of any offline business. The right location can drive traffic, sales, and brand awareness, while a hastily-selected site can doom even the best laid out stores. A well-situated retail outlet can also simplify chain-level logistics and operations by lowering the costs of delivery, returns, and customer acquisition.
+
+So how do you choose the right retail location? In the past, retail site selection involved poring over binders of spreadsheets, zoning plans, and Census data – and even then, the process was more an art than a science. But now, location analytics (https://www.placer.ai/foot-traffic-analytics) and other advanced tools can take a lot of the guesswork out of the equation to yield better results in a shorter amount of time.
+*!@#*
+Retail Site Selection Methodology
+Local, Regional, or National Retail Expansion?
+Many factors are likely to impact a retailer’s strategic expansion plans, including supply chain considerations and long-term business goals. But if you need help narrowing down your options, foot traffic data (https://www.placer.ai/solutions/retailers) can help you identify your local, regional, and national potential.
+
+Using Location Analytics to Assess Local Retail Potential
+If you have a local business operating several stores, location analytics (https://www.placer.ai/products/analytics) can help you assess whether you have saturated the local market, or if there’s still room to grow. When looking at True Trade Area overlaps between your various stores, notice that large overlaps means high cannibalization and that you may have maxed out your current region of operation. If there is little overlap between the stores’ trade area, you are at a healthy stage and may still have room to grow locally.
+
+When examining a new location, compare its trade area against your existing locations to validate that it does not cannibalize your existing stores’ customer base. A minimal trade area overlap would result in a larger reach and maximum growth potential for your business.
+
+Using Location Analytics to Reveal Regional and National Retail Potential
+
+If foot traffic analysis shows that you have saturated your local markets – or if your long-term strategy requires it – you will want to expand regionally or nationally. Location analytics can show you migration trends (as shown in Placer’s free Migration Trends tool at https://www.placer.ai/the-square/migration-trends) in every state, city, or even zip code so you can identify regions with net positive migration that are likely experiencing an increased demand for products and services. If, on the other hand, net migration is negative – it could mean that retail development will slow down in the area, and you might want to consider expanding elsewhere.
+*!@#*
+What Is My Offline Target Audience?
+High population density is not enough to guarantee your store’s success – the more important thing is coming closer to your target audience. And although you may have conducted extensive market research to identify your ideal consumer personas, your offline visitors may have slightly different characteristics. So, a critical component of any retail site selection process is asking – what is my target offline customer profile?
+Here too, location analytics can help. The combination of foot traffic analytics with a variety of socio-demographic datasets (https://marketplace.placer.ai/) reveals demographic information (details like age and household income) and psychographic insights (traits like shopping habits and leisure preferences) for any store’s trade area. Other parameters, such as visitors’ cross-shopping and consumer journey, can show what other nearby retail locations your customers frequently visit.
+Analyzing Visitors to Existing Stores
+If you already have some stores up and running, foot traffic data can show you which consumer traits and cross-shopping behaviors are relatively constant across all stores to help you define your offline consumer persona(s). You can also compare the data from higher and lower-performing stores to understand what sets the more successful stores apart. By identifying the factors fueling these stores’ success, you can establish a set of best practices for new store locations specific to your brand.
+Analyzing Visitors to Competitors
+Your competitors’ foot traffic can also provide insights into your target market, assuming that you are appealing to similar audiences. If you consider expanding to a region where you currently do not operate, seeing who is visiting your close competitors may give you a rough sense of your potential future customers.
+*!@#*
+Competitive Landscape – How Big is This Opportunity?
+It makes sense to follow your competition when expanding to new regions, but it can also be tricky. Too much competition can stifle your business, while little competition in the area may signal low demand. Using foot traffic data, you can analyze visits to competitors’ locations around your target property and focus on retail sites that are well-positioned within a healthy competitive environment.
+Estimate Existing Demand in the Target Site
+If competitors or similarly oriented retailers are present around your target site, you can use foot traffic data to see how these other retailers are performing. High visit numbers indicate a strong regional demand for your products or services. You can also look at cross-shopping or customer journey data to understand how willing customers are to visit multiple retailers with similar offerings.
+
+If the region has many retail outlets similar to your own, and these stores are seeing a decline in visits and performance, this might indicate a saturated market.
+
+On the other hand, in case all factors make the region look promising but it lacks competitors’ presence, you may have identified whitespace in the market. Pioneering a store in a new location might serve unmet demand and enable you to stay ahead of future competition in the region.
+*!@#*
+Shopping Center Performance – What Retail Site Would Serve Me Best?
+Once you’ve identified a promising region, you need to choose a specific property for your future store. Location analytics can give you visibility into consumer behavior and shopping patterns at any shopping center, mall, or high street in the United States so you can find the perfect match for your new retail outlet.
+
+Leveraging Location Analytics to Gauge Performance of any Site
+In addition to overall visit numbers, shopping center visitation data also provides psychographic and demographic insights on the shopping center’s clientele. You can compare the shopping center’s consumer base to your business’s target audience to find the right fit.
+
+Foot traffic data also highlights shopping patterns such as the days of the week or hours of the day that attract the highest traffic; the typical visitor journey(s) visitors take within a mall or across nearby locations; and how long most consumers dedicate to their shopping trip. You can use these insights to find a location with similar visitation patterns to your existing locations and customer base.
+Using Foot Traffic Data to Take Calculated Risks
+Even if a shopping center is not a top performer, it might still be a good fit for your business. See if your brand complements the current retail mix and the trade area is populated by a good reach of your target audience – perhaps opening your new store there can turn the tides and boost center performance while positioning you as an anchor retailer. That way, you enjoy a win-win situation and long-term lease relationships. Remember – the health of a shopping center is driven by its tenants!
+*!@#*
+Co-Tenants and Nearby Stores – Are they Complementing my Business?
+Whether in a shopping center, a crowded downtown block, or a neighborhood commercial hub – co-tenants and nearby stores can have a significant positive impact on your store’s performance. They are not competitive threats –rather, they can often be important sources of synergy.
+
+Using Foot Traffic to Identify Synergies
+Your business can potentially benefit from proximity to neighboring retailers, coffee shops, restaurants, healthcare providers, entertainment venues, etc. Foot traffic insights, like those provided by Placer’s analytics (https://www.placer.ai/products/analytics) in the screenshot below, can help you identify which brands or businesses are particularly popular with your customers, which in turn can help you narrow down the right neighborhood, street – or even intersection – for your new store.
+
+By opening your new store near other retailers or businesses that are also popular with your customers, you can enjoy a visit boost from incremental visitors or give potential shoppers another reason to visit your neck of the woods.
+Diving into Co-Tenants
+If you’re looking to easily identify shopping centers or commercial hubs with a tenant mix that is particularly suited to your brand, you can use advanced foot traffic analysis tools like Placer’s Void Analysis (https://go.placer.ai/lp/void-analysis) feature. The Void Analysis tool instantly generates a list of retailers that match a vacancy in the shopping center, based on a similarity score. Your brand might be ranked on the list, providing an additional indication of your fit in the tenant mix. This could save you the time and effort of checking the synergy between your brand and individual co-tenant in the shopping center.
+*!@#*
+Planned Development – What Is The Future Potential of the Area?
+So far, we discussed existing parameters that can impact your future store’s performance. But if you want your retail site to continue attracting visitors for years to come, it is worth considering future developments as well. Looking into development projects in the planning or construction stages hints at the long-term potential of the area examined.
+
+Understanding Where the Region is Going
+Location analytics platforms can give you a glimpse into the retail, office, residential, medical, and industrial development projects that are in various planning and execution stages around your target area. This can help you choose a retail site that is right for now but also well-situated for future growth potential.

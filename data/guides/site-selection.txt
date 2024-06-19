@@ -1,0 +1,86 @@
+Title: Site Selection Guide
+Subtitle: How to Use Foot Traffic Analytics for Site Selection
+
+The location of a property is of paramount importance in any real estate deal, including commercial site selection. In order to select the right site for a brick-and-mortar business, you need to take into account many different considerations, analyze numerous data sources, and carefully weigh your business and logistical needs.
+
+Foot traffic data empowers businesses and real estate professionals to make the best site selection decisions by providing actionable insights for any location or venue with unprecedented accuracy. Considering foot traffic insights during the site selection process can help you to make smarter decisions and shape a winning site selection strategy.
+
+Keep reading to learn how location data and other advanced tools can guide a data-driven site selection process that will position your business to thrive.
+
+*!@#*
+What is the Meaning of Site Selection?
+Site selection refers to the process of selecting an appropriate physical venue for any business or activity with an offline component. The site selection process is typically led by a real estate firm or a company’s real estate department, and may also involve engineering and construction specialists along with representatives from the executive team, business analysts, and even the tax and accounting unit. The site selection team will establish selection criteria and analyze a wide range of quantitative and qualitative inputs to identify promising properties that can position the business to achieve its long-term goals.
+*!@#*
+What are the Advantages of Site Selection?
+Investing in a proper site selection process is a lot of work, but the payoff can be significant. Companies that take into consideration not just logistical factors but also the market and submarket characteristics of the prospective site set their sites up for success by maximizing customer reach and business potential.
+
+Whether you’re a retailer contemplating your next location, a franchisee debating where to place your investment, or a real estate developer scouting locales for your next project, incorporating location analytics into your evaluation can simplify virtually every step of the site selection process.
+*!@#*
+The Best Software, Data & Reports for Site Selection
+You can draw on a variety of different data sources to inform your site selection process. By understanding the essence of each data source, you can ensure that you are adding only the most relevant tools to your site selection toolkit. Choosing the right data early on will help you make data-driven decisions without getting bogged down by irrelevant inputs, and will save you time and effort throughout the site selection process.
+
+Data types to support site selection
+Foot Traffic Analytics
+Location data companies like Placer.ai provide a variety of visitation data for individual venues as well as entire regions. These metrics can answer a range of questions regarding consumer’ visitation patterns, including how many visitors are drawn to each location, what are their preferred days and hours, and what other venues they tend to visit. There is also a free version available for those who want to access some of the data without committing to the full platform.
+
+Foot traffic data can be leveraged independently or paired with additional data sources for even greater insights. Layering supplementary reports onto location data can provide a fuller picture of the site’s current offline performance and future potential.
+
+Demographic Data
+Site selection teams will likely benefit from looking into the demographic composition in and around potential sites. Sources like U.S. Census or STI PopStats provide a detailed characterization of the population in the area and include measures like age, gender, marital status, ethnicity, income, education, employment, and more.Other demographic tools provide a snapshot of consumer profiles in your area of interest by segmenting households according to various demographic criteria.
+
+Psychographic Data
+The unique social fabric of any area constantly evolves, but it is possible to access up-to-date information about local consumer trends and habits. Numerous datasets provide visibility into consumer preferences using a variety of methodologies such as conducting consumer-conducted surveys, tracking social media conversations, or even analyzing local web searches.
+
+Consumer Spending Patterns
+Looking at where consumers currently spend their money can help businesses assess future demand and market share. Sources like STI Spending Patterns provide an overview of how consumers in each location allocate their spending.
+
+Area Analysis
+Depending on the nature of the business and the specific purpose of the new location, site selection teams may need to drill deeper into certain local attributes such as crime rates, business environment, or even climate. Reliable data is available to illuminate all these different facets of the physical world.
+
+Layering these additional datasets on top of accurate foot traffic data can provide deep visibility into any property or local market and help you find a site that matches your needs and attracts your desired audience.
+
+Visit the Placer Marketplace to see other types of datasets you can use on their own or in combination with foot traffic data.
+*!@#*
+Site Selection Methodology
+Useful Foot Traffic Reports for Site Selection
+
+Visitation:
+Foot traffic data can reveal visitation patterns for any individual location, including currently owned venues, competitors’ properties, entire shopping centers, and even the area around an undeveloped parcel. This data shows you how many people frequent each venue, how often they visit, where they go before and after, how the venue ranks, and much more. You can also see how visitation metrics are changing over time, or compare one venue’s visitation patterns to similar or competing venues.
+Adding visitation data to the site selection inputs lets you identify sites that attract traffic that is consistent with your target audience. For example, if visitation patterns in your existing locations indicate that most of your customers visit on weekends, you can use foot traffic data to also identify potential new locations that draw most visitors on Saturday and Sunday.
+
+Trade Area:
+A trade area (or catchment area) is the geographic area where most of a property’s visitors live or work. Traditionally, a property’s trade area was measured as a ring radius around the property – the bigger the radius of the circle, the bigger the trade area. But, since most visitors don’t really live in neat circles around the properties they visit, the ring radius fails to accurately measure a property’s reach.
+Location data technology is redefining how trade areas are measured and assessed. Real estate professionals can now instantly map out the True Trade Area for any property and discover where visitors are actually coming from. This method of measuring trade area provides a much more accurate and high-resolution picture of a brand’s customer base.
+
+Cannibalization:
+The main goal of opening new offline locations is usually to reach new customers and increase sales. To make this happen, the new locations should draw new consumers that your business is not reaching currently.
+Foot traffic data lets you evaluate the trade area overlap between two or more locations, which can help you assess the potential cannibalization between a target property and your brand’s existing locations. By leaning on foot traffic data to minimize cannibalization, you can choose a location that will reach audiences you’re currently missing out on rather than those you are serving already.
+
+Cross-Shopping Behavior:
+Location data can also show what other brands your visitors tend to visit, which can help you identify particularly attractive co-tenants or strategic partners.
+Say you’re a grocery retailer, and visitation data to one of your stores shows that many of your customers often visit a certain dining chain. Perhaps selecting a new site that is located next to a branch of that chain can give your new store an extra edge. Foot traffic data lets you uncover these points of synergy in a relatively effortless and cost-efficient way.
+
+Void Analysis:
+If you’re looking to easily identify shopping centers or commercial hubs with a tenant mix that is particularly suited to your brand, you can use advanced foot traffic analysis tools such as Placer.ai’s Void Analysis report. The Void Analysis report instantly generates a list of the most promising prospective tenants for any venue based on a variety of factors. If your brand ranks high on the list, it means your brand will likely fit in well with the nearby shops and service venues.
+And if you are eyeing a location that has received multiple bids, the Void Analysis report can demonstrate to potential landlords your business value. Using business insights presented in a simple similarity score, you can validate that your brand filling a vacancy won’t just bring success to your new store – it will also increase traffic to the surrounding tenants and to the commercial area as a whole.
+
+Learn more about useful reports for site selection at https://www.placer.ai/products/analytics
+*!@#*
+Site Selection Examples
+
+Here are some site selection examples for different types of businesses.
+
+Grocery
+A major grocer was looking to examine the competitive landscape by zip code in New York State, as part of its site selection process. Location data showed the top three brands based on monthly visitation in the state, and the aggregated draw of customers across counties and zip codes.
+Learn more in the Site Selection Guide.
+
+Bars & Pubs:
+Vestar Capital Partners sought to increase the value of one of its shopping centers in Northern California by leasing a venue to an experiential brewery tenant. Learn how Vestar’s leasing team leveraged location data to provide evidence that convinced the brewery business to select the shopping center as its new site in Vestar’s success story.
+
+Commercial Real Estate – Acquisition:
+The real estate acquisition process requires intensive research which can often be inefficient and time consuming. Learn how acquisition teams easily identify the right opportunities, accurately evaluate local markets and avoid costly mistakes using foot traffic data in this Acquisition Guide.
+
+Commercial Real Estate – Leasing:
+Foot traffic data can help leasing professionals demonstrate the value of their venues to prospective tenants and land lease contracts with the most appropriate retailers.
+
+Take the next step in your data-driven site selection by reading the Retail Site Selection Guide at https://www.placer.ai/site-selection

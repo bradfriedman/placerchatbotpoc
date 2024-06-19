@@ -1,0 +1,19 @@
+Title: Overview of the Chains Section
+Subtitle: A brief introduction to the features and functionality of the Chains section
+
+The Chains tab is where you can explore and analyze location-based data about chains or custom groupings of POIs thar you have created as Tags in My Zone.  The video above provides a brief introduction to the features and functionality of the Chains section.
+
+Chains Reports Highlights
+Chains reports allow you to analyze between one and eight chains and compare these to each other.  A secondary navigation menu along the left organizes the robust data available for exploration and analysis.
+
+Below is an introduction to the most popular reports within the Chains section:
+
+Overview: Overview summarizes Placer’s most commonly referenced data and insights for a specific chain. This includes visit metrics, visit trends, YoY metrics, Baseline Trend metrics, share-of-visits, and Ranked Venues for the selected chains.
+Contacts: Our optional Contacts Product allows you to easily connect with company representatives, franchisees, and franchisors for your selected chains.
+Demographics: Demographics provides a variety of demographic and psychographic insights about chain visitors and the population living within its trade areas
+
+Variance: Variance is used heavily to measure differences in visitation or foot traffic. Variance reports allow you to easily compare the foot traffic of a chain to previous weeks, previous months, or even previous years.
+
+Frequent Co-Tenants: This tool allows you to search for specific chains to view a list of other chains they are frequently located near or with (in the same shopping center).
+
+There is a full training webinar available on using Chains at https://view-su2.highspot.com/viewer/6603576ead1af6075a04910f

@@ -1,0 +1,50 @@
+Title: Void Analysis - A Step-by-Step Guide
+Subtitle: Learn how to perform VOID analysis quickly and efficiently to discover the best tenants for your property, lot, or shopping center.
+
+What is Void Analysis?
+Void analysis is the process of analyzing geographical spaces to uncover gaps – or voids – in available goods and services. In retail and commercial real estate (CRE), the term void analysis is often used to refer to the process of analyzing a property and its trade area in order to find the most suitable businesses to fill a vacancy. Void analysis can be used by CRE professionals seeking ideal tenants for their venues, by developers planning property improvements, and by business owners eager to find the best locations for their enterprises.
+
+In the past, void analysis often entailed simply comparing a region or location to a reference area in order to identify “missing” or undersupplied retailers and product offerings. Today, however, advanced location analytics tools (https://www.placer.ai/foot-traffic-analytics) allow practitioners to base void analysis on a much richer set of data points. These tools aggregate data from a wide variety of sources and efficiently synthesize multiple data sets, which makes it easy to conduct in-depth void analysis that accounts for all the relevant parameters.
+
+In this article, we'll explore best practices for leveraging technological tools to perform void analysis. We will also provide concrete examples and touch on some of the ways that retailers, commercial real estate brokers, and others can harness location intelligence to glean actionable void analysis insights in real time.
+
+How Does Void Analysis Work?
+The way void analysis works in practice can be illustrated with a concrete example. Imagine that a group of asset managers is tasked with filling a vacancy in an outdoor shopping center. They’re considering several different directions –  and while they trust their experience and intuition, they want their decision to be based on hard data. Should they aim for a restaurant or an apparel store? An off-price brand or a luxury chain? What gaps can be identified in local retail or dining offerings? And which chains are most likely to appeal to the center’s existing customer base?
+
+To answer these questions, the asset managers will need to consider several key factors, including:
+
+The demographic and psychographic characteristics of the center’s customer base: What are the median ages and the household incomes (HHI) of the consumers that currently frequent the center? What kinds of stores or products do they like? What is the center’s true trade area (https://www.placer.ai/guides/void-analysis#:~:text=is%20the%20center%E2%80%99s-,true%20trade%20area,-%E2%80%93%20meaning%20the%20actual) – meaning the actual areas where most of its customers come from – and what are the habits and characteristics of the people that live there?
+
+Local levels of supply and demand: Which local markets are oversaturated, and which are underserved? Is there an unmet need for more electronics stores in the center’s trade area? What about pizzerias?
+The relative performance of different local retail categories: Which segments have performed well in the center’s trade area in recent years, and which have lagged behind? Which categories appear poised for growth moving forward?
+Frequent co-tenancy: Which other chains tend to be co-located with the stores and restaurants currently operating in the center? Frequent co-tenancy with existing local enterprises can be a strong indicator that a business is primed to succeed in a particular location.
+The track records of specific chains: How are potential tenants faring in today’s market? Are they expanding or downsizing? Which are experiencing the most visit growth, and which are declining?
+Prospective tenants’ cannibalization risk: How many other nearby locations do potential tenants already operate? Will opening a new venue increase overall foot traffic and revenue or simply take business away from existing locations?
+Potential tenants’ typical venue size: Does the center’s available space match prospective tenants’ typical store size? Will it help them maximize sales per square foot?
+Many of these factors rely on foot traffic data, which provides insight into where customers go and how they behave in the real world.
+*!@#*
+3 (More) Use Cases for Void Analysis in Retail and Real Estate
+In addition to helping shopping center managers hone in on the best categories and businesses for their venues, void analysis has a number of additional applications for professionals in retail and real estate:
+
+Void Analysis for Conducting Negotiations
+Commercial real estate (CRE) professionals can use void analysis to conduct negotiations with sought-after candidates. Imagine that the asset managers mentioned above decide to recruit a particular specialty foods chain for their center. A properly-conducted void analysis can contribute to building a data-driven case showcasing the potential benefits of the venue, and to convince the chain that it is indeed a good fit.
+
+Void Analysis for Site Selection
+Retailers, for their part, can apply void analysis to search for a shopping center or property where their business is most likely to thrive. Take the example of a high-end children’s apparel chain that is interested in expanding to additional markets. Using void analysis, the chain can compare the relative advantages of different locations across regions and local markets and uncover the areas where there is the most untapped potential for their business.
+
+Void Analysis for Property Development
+Void analysis can also be used by CRE developers. Imagine that a property development firm needs to plan the construction of a retail space on a vacant lot. Using void analysis, it can identify high-demand industries for the region and invest in the projects best suited to the needs of the local community.
+*!@#*
+The Placer.ai Void Analysis Solution
+Collecting and analyzing all of the necessary information to perform data-driven void analysis can be a daunting task, even for the most seasoned professionals. In a dynamic and ever-changing business world, ensuring that data is up-to-date presents a significant challenge. And accurate foot traffic data can be notoriously hard to come by.
+
+That’s where Placer.ai comes in. Placer.ai – the industry leader in location intelligence (https://www.placer.ai/guides/location-intelligence) – provides retail and real estate professionals with the data and tools they need to conduct effective and timely void analysis. By layering footfall data with demographic, psychographic, and other geospatial data sets (https://www.placer.ai/guides/geospatial-data) onto highly accurate, comprehensive, and up-to-date foot traffic analytics, Placer makes identifying the ideal tenant quick and easy.
+
+Placer’s Void Analysis tool lets customers instantly synthesize multiple data points to generate a list of prospective tenants for any shopping center, property, address, or even vacant land ranked by their Relative Fit Score. The tool is highly customizable, so that users can limit their search to particular categories, specify the desired chain size, and more.
+*!@#*
+Placer.ai’s Void Analysis Tool in Action
+To see how Placer.ai’s location intelligence platform can be used to quickly and efficiently match CRE properties with the retailers most likely to flourish in their venues, let’s return to the example of the asset managers who need to quickly fill a vacancy in a shopping center.
+
+Instead of laboriously collecting and sifting through data on hundreds or even thousands of potential tenants, Placer’s Void Analysis tool (https://go.placer.ai/lp/void-analysis) allows them to analyze the property’s trade area in seconds and immediately generate a list of top compatible candidates. The tool ranks each potential tenant across a range of metrics, including demographic fit with the center, risk of cannibalization, average monthly visits, frequent co-tenancy, and more.
+
+With Placer’s platform, the managers can also easily conduct their own in-depth analyses of the center’s trade area and of wider local, regional, and national market trends.

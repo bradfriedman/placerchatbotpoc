@@ -45,7 +45,7 @@ with open(os.path.join('prompts', 'chatbot_system_prompt.dat')) as f:
     system_prompt = f.read()
 
 index_name = "articles"
-namespace = "elevio_articles"
+namespace = "kb"
 
 pc = PineconeGRPC(api_key=PINECONE_API_KEY)
 index: GRPCIndex = pc.Index(index_name)
@@ -115,7 +115,8 @@ def streamlit_entrypoint():
             ]
         )
 
-        retriever = vector_store.as_retriever()
+        retriever = vector_store.as_retriever(
+            search_kwargs={"k": 6})
         history_aware_retriever = create_history_aware_retriever(
             llm, retriever, contextualize_q_prompt
         )
@@ -133,7 +134,7 @@ def streamlit_entrypoint():
             response_stream = conversational_rag_chain.stream(
                     {"input": query_text},
                     config={"configurable": {
-                        "session_id": session_id
+                        "session_id": session_id,
                     }},
             )
 

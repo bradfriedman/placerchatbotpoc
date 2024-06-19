@@ -1,0 +1,19 @@
+Title: Overview of Property
+Subtitle: A brief introduction to the features and functionality of the Property section
+
+The Property tab is where you can explore and analyze location-based data about single locations or POIs.  The video above provides a brief introduction to the features and functionality of the Property section.
+
+Property Reports Highlights
+Property reports allow you to analyze between one and eight single locations and compare these to each other.  A secondary navigation menu along the left organizes the robust data available for exploration and analysis into report groupings.
+
+Below is an introduction to the most popular reports within the Properties section:
+
+Overview: Overview summarizes Placer’s most commonly referenced data and insights for a specific property. This includes visit metrics, visit trends, tenant overviews, rankings, a market landscape snapshot, high-level demographics, commonly traveled routes to and from of the POI, visits by time of day, visits by day of the week, dwell time, and more.
+Property Info: Property Info summarizes parcel data, including zoning info, property ownership, tax information, how many parking spaces there are, and more.
+Variance: Variance is used heavily to measure differences in visitation or foot traffic. Variance reports allow you to easily compare the foot traffic of a POI to previous weeks, previous months, or even previous years.
+Visitor Journey: Visitor journey reports summarize the customer journey to the POI – or where visitors visit immediately before and immediately after visiting this location.  These reports also include the other places – e.g., the specific stores, restaurants, services, chains, etc. – that POI visitors frequent.  These are described as “favorite places” and “favorite chains”.
+Demographics: Demographics summarizes data about the POI visitors, including demographics, psychographics, shopping preferences, and much, much more. Many of these insights are powered by data from third-party providers.  Visit Using third-party data to learn more about the Placer Marketplace and these third-party data partners.
+Trade Area: Trade area allows you to analyze the actual area that you're trading in and answer questions such as: “What is your draw?”, “Where do your customers come from?”, “What is the trade area overlap between different locations?”, and “How far do people drive to visit this location?”  The “Visitors by Origin” widget helps you understand your top zip codes, and lists the specific zip codes that your visitors live or work in –– including comparisons across different locations or time periods.
+Area Analysis: Area Analysis summarizes vehicle traffic volume, planned development within an area, crime data, and more.
+Ranking: Ranking is essentially a benchmarking tool, where you're able to benchmark the foot traffic of any location to its chain (e.g., comparing a specific Whole Foods location to the entire Whole Foods chain), or its category (e.g., comparing a specific Whole Foods location to the grocery category).
+Loyalty: Loyalty reports allow you to set your own loyalty thresholds and then see how many visits come from loyal visitors.

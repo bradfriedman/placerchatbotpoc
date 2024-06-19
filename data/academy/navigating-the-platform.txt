@@ -1,0 +1,15 @@
+Title: Navigating the platform
+
+Placer's platform offers a wide range of robust tools and features that enable you to gain deep insights into physical locations, the people and businesses that interact with them, and the markets they inhabit.
+Here’s a quick overview of the main sections within the Placer platform and how they are used:
+
+My Zone: My Zone allows you to create your own custom groupings of POIs. It also lists your personal and company tags, as well as all custom created POIs. My Zone makes it easy to monitor the POIs you care most about and get quick entry into specific reports.
+Explore: Explore is the starting point for finding any property or POI (Point of Interest) across the United States. Explore allows you to search by POI name, street address, or category, and Placer.ai dynamically displays results based on the search terms.
+Property: The Property tab is where you can explore and analyze location-based data about single locations or POIs. Within Property, you can compare up to eight distinct locations or POIs at a time.
+Chains:  The Chains tab aggregates reports designed for chain-level analysis, and provides easy access to reports that allow you to analyze and compare entire chains.
+Industry: The Industry tab is where you can perform industry-level analysis.  Related chains are grouped so you can explore aggregated visitation metrics and analyze industry-wide trends.
+Advanced Reports: The Advanced Reports section houses advanced solutions and add-on tools like Void Analysis, Site Selection Report, and more.
+Custom POI: The Custom POI Creator can be used to quickly add a POI if you need data immediately. However, it is preferable to request a verified POI from Placer Support whenever possible. Since custom POIs are not verified by the Placer team,  they cannot be used in rankings, chains, and various other tools – and the margin of error on estimates for custom POIs is higher than verified POIs. Visit the quick start guide to learn how to request a POI.
+Labs: Labs is a beta area in the platform in which the new components and user experiences are tested
+Academy: The Academy is our learning hub, where you can explore training videos, how-to articles, register for live training sessions, and more.
+Marketplace: The Placer Marketplace showcases enhancements and expansions available for the Placer Platform, including premium Placer features and third-party solutions from some of the world's leading providers, mechanisms to export data out of the Placer Platform for analysis within existing workflows, and vetted, third-party professional service providers.

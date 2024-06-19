@@ -1,0 +1,8 @@
+Title: How to use My Zone
+Subtitle: My Zone Highlights
+
+My Zone makes it easy to quickly access your favorite reports within the platform and saves you time searching for POIs.  It’s especially helpful to familiarize yourself with the following  areas:
+
+Portfolio: Portfolio organizes the properties associated with your account, including individual properties or complexes.  A shopping center’s portfolio, for example, may include their tenants.  Portfolio also provides a quick snapshot of key visitation metrics. Note that the Portfolio view is organization-wide, meaning it is the same for every person in your organization.
+Tags: Tags allows you to create a custom, personalize taxonomy for your POIs. You can create a new tag, name it, add POIs to it, and then view it anytime – and only you can edit them.  Tags are incredibly flexible and can be used creatively for many different analytical needs.  For example, we've seen people put together tags of stores with different features, or areas with different tax incentives or different zoning laws. There's really no limit to how you can organize your tags!
+Metrics: You can select to show the metrics you prioritize by using the "Select Metrics" tool - these include Visits, Visits per square foot, Visits Share, Ranking by category at the nation, state, DMA or CBSA level, and more.
