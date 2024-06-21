@@ -21,26 +21,19 @@ from pydantic import BaseModel
 
 import streamlit as st
 
+from tools.learn import LearnTool
+
 set_debug(True)
 
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 PINECONE_API_KEY = st.secrets["PINECONE_API_KEY"]
 
+learn_tool = LearnTool(index_name="articles", namespace="kb", model_name="gpt-3.5-turbo", temperature=0, top_k=6)
+
 
 # Define the agent state
 class AgentState(TypedDict):
     messages: Annotated[list, add_messages]
-
-
-# Setup functions
-def load_system_prompt():
-    with open(os.path.join('prompts', 'chatbot_system_prompt.dat')) as f:
-        return f.read()
-
-
-def setup_vector_store(index_name: str, namespace: str, embeddings_model_name: str = "text-embedding-3-small"):
-    embeddings = OpenAIEmbeddings(model=embeddings_model_name)
-    return PineconeVectorStore(index_name=index_name, embedding=embeddings, namespace=namespace)
 
 
 async def greet_user():
@@ -49,53 +42,8 @@ async def greet_user():
     return ["hello"]
 
 
-# Create the conversational RAG chain
-def create_rag_chain(index_name: str, namespace: str, model_name: str = "gpt-4o", temperature: int = 0):
-    llm = ChatOpenAI(model=model_name, temperature=temperature, streaming=True)
-    system_prompt = load_system_prompt()
-
-    qa_prompt = ChatPromptTemplate.from_messages([
-        ("system", system_prompt),
-        MessagesPlaceholder("chat_history"),
-        ("human", "{input}"),
-    ])
-
-    qa_chain = create_stuff_documents_chain(llm, qa_prompt)
-
-    contextualize_q_system_prompt = (
-        "Given a chat history and the latest user question "
-        "which might reference context in the chat history, "
-        "formulate a standalone question which can be understood "
-        "without the chat history. Do NOT answer the question, "
-        "just reformulate it if needed and otherwise return it as is."
-    )
-
-    contextualize_q_prompt = ChatPromptTemplate.from_messages([
-        ("system", contextualize_q_system_prompt),
-        MessagesPlaceholder("chat_history"),
-        ("human", "{input}"),
-    ])
-
-    vector_store = setup_vector_store(index_name, namespace)
-    retriever = vector_store.as_retriever(search_kwargs={"k": 6})
-    history_aware_retriever = create_history_aware_retriever(llm, retriever, contextualize_q_prompt)
-
-    return create_retrieval_chain(history_aware_retriever, qa_chain)
-
-
-async def rag_tool(question: str):
-    """Use this for complex queries requiring information retrieval."""
-    # question = state["messages"][-1].content
-    # history = state["messages"][:-1]
-    rag_chain = create_rag_chain("articles", "kb")
-    response = await rag_chain.ainvoke({"input": question, "chat_history": []})
-    return {"messages": [response]}
-    #return AgentState(messages=state["messages"] + [AIMessage(content=response["answer"])])
-
-
 tools = [
-    StructuredTool.from_function(coroutine=rag_tool, name="RAGTool",
-                                 description="Use this for queries requiring information retrieval about Placer.ai."),
+    learn_tool.as_structured_tool(),
     StructuredTool.from_function(coroutine=greet_user, name="GreetUser",
                                  description="Respond to a greeting from the user with another friendly greeting.",),
 ]
@@ -165,15 +113,15 @@ async def run_graph(initial_messages: List[BaseMessage], message_placeholder, th
             print("Event = ", event)
             content = event["data"]["chunk"].content
             if content:
-                full_response += content
-                message_placeholder.markdown(full_response + "▌")
-                # if current_step == "contextualize":
-                #     debug_output += f"Contextualized question content: {content}\n"
-                #     contextualized_question += content
-                # elif current_step == "generate":
-                #     debug_output += f"RAG tool content: {content}\n"
-                #     full_response += content
-                #     message_placeholder.markdown(full_response + "▌")
+                # full_response += content
+                # message_placeholder.markdown(full_response + "▌")
+                if current_step == "contextualize":
+                    debug_output += f"Contextualized question content: {content}\n"
+                    contextualized_question += content
+                elif current_step == "generate":
+                    debug_output += f"RAG tool content: {content}\n"
+                    full_response += content
+                    message_placeholder.markdown(full_response + "▌")
         elif kind == "on_tool_start":
             print("--")
             print(
