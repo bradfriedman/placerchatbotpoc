@@ -29,6 +29,7 @@ langchain-core==0.2.9
 langchain-openai==0.1.9
 langchain-pinecone==0.1.1
 langchain-text-splitters==0.2.1
+langgraph==0.0.69
 langsmith==0.1.81
 markdown-it-py==3.0.0
 MarkupSafe==2.1.5
