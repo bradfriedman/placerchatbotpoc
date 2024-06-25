@@ -1,5 +1,6 @@
 import os
 
+from langchain.globals import set_debug
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.tools import StructuredTool
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
@@ -7,6 +8,8 @@ from langchain_pinecone import PineconeVectorStore
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains.history_aware_retriever import create_history_aware_retriever
 from langchain.chains.retrieval import create_retrieval_chain
+
+set_debug(True)
 
 
 class LearnTool:

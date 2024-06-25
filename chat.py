@@ -1,29 +1,16 @@
 import asyncio
-import os
 import uuid
-from typing import Dict, List, Annotated, TypedDict, Literal
+from typing import List, Annotated, TypedDict, Literal
 from langchain_core.messages import HumanMessage, AIMessage, BaseMessage
-from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
-from langchain.tools import tool
-from langchain_core.tools import Tool, StructuredTool
-from langchain_openai import ChatOpenAI, OpenAIEmbeddings
-from langchain_pinecone import PineconeVectorStore
-from langchain_core.runnables.history import RunnableWithMessageHistory
-from langchain.chains.combine_documents import create_stuff_documents_chain
-from langchain.chains.history_aware_retriever import create_history_aware_retriever
-from langchain.chains.retrieval import create_retrieval_chain
-from langchain.globals import set_debug
+from langchain_core.tools import StructuredTool
+from langchain_openai import ChatOpenAI
 from langgraph.checkpoint import MemorySaver
-from langgraph.graph import StateGraph, END
-from langgraph.graph.message import add_messages, MessagesState
-from langgraph.prebuilt import create_react_agent, ToolNode
-from pydantic import BaseModel
+from langgraph.graph.message import add_messages
+from langgraph.prebuilt import create_react_agent
 
 import streamlit as st
 
 from tools.learn import LearnTool
-
-set_debug(True)
 
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 PINECONE_API_KEY = st.secrets["PINECONE_API_KEY"]
