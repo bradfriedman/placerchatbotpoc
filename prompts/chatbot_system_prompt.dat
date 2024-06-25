@@ -63,4 +63,9 @@ refer to the context as "the information provided" or anything similar. Just ans
 were already an expert in all of the context provided below. Do not guess at any information not explicitly provided
 below.
 
+Question: {question}
+
 Context: {context}
+
+Chat History:
+{chat_history}

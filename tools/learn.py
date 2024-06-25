@@ -1,15 +1,60 @@
 import os
+from typing import TypedDict, Annotated, Type, Optional
 
 from langchain.globals import set_debug
+from langchain_core.callbacks import CallbackManagerForToolRun
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
-from langchain_core.tools import StructuredTool
+from langchain_core.pydantic_v1 import BaseModel, Field
+from langchain_core.tools import StructuredTool, BaseTool, create_retriever_tool
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_pinecone import PineconeVectorStore
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains.history_aware_retriever import create_history_aware_retriever
 from langchain.chains.retrieval import create_retrieval_chain
 
+from langgraph.graph import StateGraph
+from langgraph.graph.message import add_messages
+
 set_debug(True)
+
+
+class State(TypedDict):
+    messages: Annotated[list, add_messages]
+graph_builder = StateGraph(State)
+
+
+class LearnModel:
+    pass
+
+def learn_chatbot(state: State):
+    pass
+
+
+class LearnInput(BaseModel):
+    """Input for the LearnTool"""
+
+    query: str = Field(description="the user's natural-language query to be answered by the LLM tool")
+
+
+class LearnTool2(BaseTool):
+    """Tool that uses an LLM and a knowledge base to answer questions about Placer.ai, its offerings, and its
+    industry research.
+    """
+    name: str = "learn_tool"
+    description: str = ("A tool for answering questions about Placer.ai, its offerings, and its industry research. "
+                        "Input should be a raw query as it's originally entered in the chatbot.")
+    args_schema: Type[BaseModel] = LearnInput
+
+    def _run(
+        self,
+        query: str,
+        run_manager: Optional[CallbackManagerForToolRun] = None,
+    ):
+        """Use the tool."""
+        try:
+            pass
+        except Exception as e:
+            return repr(e)
 
 
 class LearnTool:
@@ -23,6 +68,11 @@ class LearnTool:
         self.embeddings_model_name = embeddings_model_name
         self.vector_store = self.setup_vector_store()
         self.retriever = self.vector_store.as_retriever(search_kwargs={"k": self.top_k})
+        self.retriever_tool = create_retriever_tool(
+            self.retriever,
+            "retrieve_knowledge_base_entries",
+            "Search and return information about Placer.ai, its offerings, and its industry research."
+        )
         self.system_prompt = self.load_system_prompt()
 
     @staticmethod
