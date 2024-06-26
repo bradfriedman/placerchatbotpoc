@@ -70,11 +70,14 @@ class PlacerAgent:
         # Compile the workflow
         self.graph: CompiledGraph = self.workflow.compile(checkpointer=MemorySaver())
 
+        # Define the tools that are available to our agent
+        self.tools = [self.learn_retriever.retriever_tool]
+
     def agent(self, state: AgentState):
         print("---CALL AGENT---")
         messages = state["messages"]
         agent_model = ChatOpenAI(temperature=0, streaming=True, model="gpt-4o")
-        agent_model = agent_model.bind_tools([self.learn_retriever.retriever_tool])
+        agent_model = agent_model.bind_tools(self.tools, tool_choice="any")
         response = agent_model.invoke(messages)
         # We return a list, because this will get added to the existing list
         return {"messages": [response]}
